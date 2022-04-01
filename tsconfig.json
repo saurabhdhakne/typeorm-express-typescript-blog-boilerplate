@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+  
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "outDir": "./dist",                                  /* Dir with Compile js, */
+    "rootDir": "./src",                                  /* ts file are stored, Specify the root folder within your source files. */
+    "moduleResolution": "node",                       
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "sourceMap": true,
+		"removeComments": true,
+		"noImplicitAny": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"noImplicitThis": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"allowSyntheticDefaultImports": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"resolveJsonModule": true,
+		"baseUrl": "."  
+  },
+  "exclude": ["node_modules"],
+	"include": ["./src/**/*.tsx", "./src/**/*.ts"]
+}

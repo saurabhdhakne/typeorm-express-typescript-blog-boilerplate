@@ -1,0 +1,35 @@
+User :
+        GET: localhost:5000/user/get/all
+
+        POST: localhost:5000/user/post
+        {
+            "first_name": "fname",
+            "last_name": "lname",
+            "email":"email@example.com"
+        }
+        PUT: localhost:5000/user/update/11
+        {
+            "first_name":"srb",
+            "last_name":"dk"
+        }
+
+        Delete: localhost:5000/user/delete/11
+
+Blog :
+        POST: localhost:5000/blog/post
+        {
+            "user_id":7,
+            "title": "title of blog",
+            "desc": "small desc about blog",
+            "text":"blog text is here"
+        }
+
+        Delete: localhost:5000/blog/delete/4
+
+Comment :
+        POST: localhost:5000/comment/post/2/2
+        {
+            "text":"add comment here..."
+        }
+
+        Delete: localhost:5000/comment/delete/3
